@@ -14,7 +14,7 @@
    <!-- JQuery -->
    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <!--   Iconos de footer -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <script src="https://kit.fontawesome.com/77f8d6d2d7.js" crossorigin="anonymous"></script>
 </head>
 <style>
 p{
@@ -41,21 +41,21 @@ font-size:1rem;
                   <div class="col-md-12 col-lg-4">
                     <div class="image-container container-fluid">
                       <a id="left-column">
-                        <img src="resources/img/berries.jpeg" class="img-fluid hover-effect" id="left"/>
+                        <img src="resources/img/berries.jpeg" class="img-fluid hover-effect py-3 py-md-0" id="left"/>
                       </a>
                     </div>
                   </div>
                   <div class="col-md-12 col-lg-4">
                     <div class="image-container container-fluid">
                       <a>
-                        <img src="resources/img/maracuya.jpeg" class="img-fluid hover-effect pt-2" id="middle" />
+                        <img src="resources/img/maracuya.jpeg" class="img-fluid hover-effect pt-md-3 py-3" id="middle" />
                       </a>
                     </div>
                   </div>
                   <div class="col-md-12 col-lg-4">
                     <div class="image-container container-fluid">
                       <a>
-                        <img src="resources/img/naranja.jpeg" class="img-fluid hover-effect" id="right"/>
+                        <img src="resources/img/naranja.jpeg" class="img-fluid hover-effect py-3 py-md-0" id="right"/>
                       </a>
                     </div>
                   </div>
@@ -111,7 +111,40 @@ font-size:1rem;
       </div>
     </div>
 
-<div class="justify-content-center" id="footer"></div>
+<!-- Footer -->
+<div class="container-fluid pt-2 px-3">
+  <footer class="text-center bg-transparent" id="footerfile">
+    <div class="text-center pt-3 pb-3">
+      <div class="row">
+        <div class="col-sm-3 order-first order-md-first">
+          <div class="d-flex align-items-center">
+            <i class="fa-brands fa-instagram" href="https://www.instagram.com/dulces.adelita/"></i>
+            <p class="mb-0 text-sm">instragram</p>
+          </div>
+          <div class="d-flex align-items-center">
+            <i class="fa-brands fa-tiktok" href="https://www.tiktok.com/@pasteleriaedelmira?lang=en">
+            </i>
+            <p class="mb-0 text-sm">tiktok</p>
+          </div>
+          <div class="d-flex align-items-center">
+            <i class="fa-brands fa-google"></i>
+            <p class="mb-0 text-sm">gmail</p>
+          </div>
+          <div class="d-flex align-items-center">
+            <i class="fa-solid fa-map-location-dot"></i>
+            <p class="mb-0 text-sm">maps</p>
+          </div>
+        </div>
+        <div class="col-sm-9 order-last order-md-last pt-3">
+          <div class="d-flex flex-column flex-md-row justify-content-end align-items-center ">
+            <p class="mb-0 text-sm text-md text-truncate">© 2024 Pasteleria Edelmira
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
 </div>
   <script src="resources/main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
