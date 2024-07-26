@@ -92,6 +92,20 @@ p.lead ul {
 }
 
 /* Galeria Destacados */
+#left{
+   width: 110%;
+   height: auto;
+}
+#middle {
+  width: 100%;
+  height: auto;
+  
+}
+
+#right{
+  width: 100%;
+  height: auto;
+}
 
 .hover-effect {
   transition: transform 0.3s ease;
