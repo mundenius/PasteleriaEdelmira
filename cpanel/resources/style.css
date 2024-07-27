@@ -8,6 +8,7 @@ p.lead {
 	font-size:1.25rem;
 }
 
+
 h2 small{
 	font-size:2rem;
 }
@@ -48,6 +49,40 @@ p.lead ul {
   text-decoration: underline;
   
 }
+
+#title{
+  background-color: rgba(255, 251, 128, 0.2);
+}
+
+/* Navbar */
+
+/* Separar los elementos del navbar */
+nav{
+  background-color: rgba(255, 251, 128, 0.2);
+}
+#navbar a{
+  font-size:1rem;
+  }
+ 
+ .navbar-nav .nav-link {
+   margin-right: 20px;
+   margin-left: 20px;
+ }
+ 
+ .navbar-nav .nav-link {
+   font-size: 16px;
+   font-weight:200;
+   color: #333;
+   text-transform: uppercase;
+ }
+ 
+ .dropdown-menu {
+   padding: 0.5rem;
+ }
+ 
+ .dropdown-item {
+   font-size: 17px;
+ }
 
 /* Animacion fade in */
 .fade-in {
@@ -90,7 +125,7 @@ p.lead ul {
 }
 
 .carousel-slide{
-  max-height: 450px;
+  max-height: 550px;
   max-width: auto;
   width: auto; /* Maintain aspect ratio */
   height: auto; /* Maintain aspect ratio */
@@ -116,13 +151,15 @@ p.lead ul {
   display: flex;
 }
 
-.banner2 {
-  margin-top: 4%;
+#banner-top {
+  background-color: rgb(128, 255, 212, 0.2);
 }
 
-.banner5 {
-  margin-top: 2%;
+#banner-bottom {
+  background-color: rgb(128, 255, 212, 0.2);
 }
+
+
 
 #left-column .image-container {
   position: relative;
@@ -160,21 +197,6 @@ p.lead ul {
   object-fit: fill;
 }
 
-/*
-Full screen Modal 
-*/
-.fullscreen-modal .modal-dialog {
-  margin: 0;
-  margin-right: auto;
-  margin-left: auto;
-  width: 100%;
-  max-width: 1080px;
-  margin: auto;
-  padding: 20px;
-  margin-top: 20px;
-  text-align: center;
-  color: #7a7a7a;
-}
 
 @media (min-width: 768px) {
   .fullscreen-modal .modal-dialog {
