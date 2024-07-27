@@ -14,7 +14,7 @@
    <!-- JQuery -->
    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <!--   Iconos de footer -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <script src="https://kit.fontawesome.com/77f8d6d2d7.js" crossorigin="anonymous"></script>
 </head>
 <style>
 p{
@@ -28,6 +28,11 @@ font-size:1rem;
       <h1 class="display-1 text-justify text-center">Dulce Adelita</h1>
     </div>
 
+    <div class="col-12">
+      <p class="display-5 text-center">
+        <a href="https://www.instagram.com/dulces.adelita/" class="link-dark link-underline link-underline-opacity-0">PIDE EN NUESTRO INSTAGRAM </a>
+      </p>
+    </div>
 <!-- Galeria Destacados -->
 <div class="container-fluid buscadorcarrusel pt-3 fade-in">
     <div class="destacados">
@@ -41,21 +46,21 @@ font-size:1rem;
                   <div class="col-md-12 col-lg-4">
                     <div class="image-container container-fluid">
                       <a id="left-column">
-                        <img src="resources/img/berries.jpeg" class="img-fluid hover-effect" id="left"/>
+                        <img src="resources/img/berries.jpeg" class="img-fluid hover-effect py-3 py-md-0" id="left"/>
                       </a>
                     </div>
                   </div>
                   <div class="col-md-12 col-lg-4">
                     <div class="image-container container-fluid">
                       <a>
-                        <img src="resources/img/maracuya.jpeg" class="img-fluid hover-effect pt-2" id="middle" />
+                        <img src="resources/img/maracuya.jpeg" class="img-fluid hover-effect pt-md-3 py-3" id="middle" />
                       </a>
                     </div>
                   </div>
                   <div class="col-md-12 col-lg-4">
                     <div class="image-container container-fluid">
                       <a>
-                        <img src="resources/img/naranja.jpeg" class="img-fluid hover-effect" id="right"/>
+                        <img src="resources/img/naranja.jpeg" class="img-fluid hover-effect py-3 py-md-0" id="right"/>
                       </a>
                     </div>
                   </div>
@@ -73,21 +78,26 @@ font-size:1rem;
     <div class="container-fluid pt-3 fade-in">
       <div class="row">
         <div class="col-12">
-          <p class="display-4">
-            Nuestra Empresa
+          <p class="display-5 text-center">
+            <a href="https://www.instagram.com/dulces.adelita/" class="link-dark link-underline link-underline-opacity-0">PIDE EN NUESTRO INSTAGRAM </a>
           </p>
         </div>
         <div class="col-lg-5 col-md-12">
-          <p class="text-justify lead pt-2">Soy una emprendedora dedicada al rubro de la pastelería, mi emprendimiento se llama la Dulce
-            Adelita, el cual consiste en producir diferentes tipos de productos de pastelería.
+          <p class="display-4">
+            Nuestra Empresa 
+          </p>
+          <p class="text-justify lead pt-2">Dulces Adelita es una empresa dedicada al rubro de la pastelería. Contamos con distintas variedades de pasteles
+            además de pasteles a pedido. Nuestra empresa se dedica al rubro del comercio, panadería y pastelería hace más de 12 años. 
+            años.
           </p>
           <p class="lead text-justify">
-            Con nuestra metodología de trabajo personalizada en la implementación del servicio, hemos logrado la
-            diferenciación respecto a la oferta existente y a mantenernos vigentes por más de 20 años en el mercado.
+            Nos encontramos en Santa Teresa 788 en la comuna de La Ligua. Los invitamos cordialmente a que nos visiten y deleiten ustedes mismos nuestros dulces y pasteles. 
+            Si no pueden venir, los invitamos a seguirnos en nuestras redes sociales como tik-tok, instagram y google.
+
           </p>
         </div>
         <div class="col-lg-7 col-md-12 d-flex align-items-center">
-          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div id="carouselExampleSlidesOnly" class="carousel-slide" data-bs-ride="carousel">
             <div class="carousel-inner pb-4">
               <div class="carousel-item active">
                 <a>
@@ -111,7 +121,42 @@ font-size:1rem;
       </div>
     </div>
 
-<div class="justify-content-center" id="footer"></div>
+<!-- Footer -->
+<div class="container-fluid pt-2 px-3">
+  <footer class="text-center bg-transparent" id="footerfile">
+    <div class="text-center pt-3 pb-3">
+      <div class="row">
+        <div class="col-12">
+          <!-- Icons container -->
+          <div class="d-flex justify-content-center">
+            <a href="https://www.instagram.com/dulces.adelita/" class="d-flex align-items-center mx-2 text-decoration-none text-dark">
+              <i class="fa-brands fa-instagram me-2"></i>
+              <p class="mb-0 text-sm">Instagram</p>
+            </a>
+            <a href="https://www.tiktok.com/@pasteleriaedelmira?lang=en" class="d-flex align-items-center mx-2 text-decoration-none text-dark">
+              <i class="fa-brands fa-tiktok me-2"></i>
+              <p class="mb-0 text-sm">TikTok</p>
+            </a>
+            <a href="mailto:edelmirapasteles@gmail.com" class="d-flex align-items-center mx-2 text-decoration-none text-dark">
+              <i class="fa-brands fa-google me-2"></i>
+              <p class="mb-0 text-sm">Gmail</p>
+            </a>
+            <a href="https://www.google.com/maps" class="d-flex align-items-center mx-2 text-decoration-none text-dark">
+              <i class="fa-solid fa-map-location-dot me-2"></i>
+              <p class="mb-0 text-sm">Maps</p>
+            </a>
+          </div>
+        </div>
+        <div class="col-12 pt-3">
+          <div class="d-flex justify-content-center">
+            <p class="mb-0 text-sm text-center">© 2024 Dulces Adelita</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+
 </div>
   <script src="resources/main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"

@@ -70,12 +70,3 @@ function mostrarMensajeConfirmacion() {
     text: 'El formulario se ha enviado correctamente.'
   });
 }
-
-
-$(document).ready(function () {
-	$('#navbar').load('/navbar.html');
-});
-
-$(document).ready(function () {
-	$('#footerfile').load('/footer.html');
-});
